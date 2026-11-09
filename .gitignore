@@ -1,0 +1,28 @@
+# IDE
+*.iml
+/.idea/
+
+# Gradle / Kotlin
+.gradle
+.kotlin/
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# ローカル環境固有
+local.properties
+.DS_Store
+
+# 署名鍵
+*.jks
+*.keystore
+
+# 署名済み APK/AAB の出力先
+/app/release/
+
+# ローカル実行ログ
+.logs/
+
+# dev の接続先（公開リポジトリに載せない）
+app/src/dev/java/com/example/friend_search/api/DevEndpoint.kt
